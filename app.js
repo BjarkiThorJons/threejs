@@ -26,7 +26,7 @@ let cube = new THREE.Mesh( geometry, faceMaterial );
 let edges = new THREE.EdgesGeometry( geometry );
 let line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
 
-let light = new THREE.AmbientLight( 0x404040 ); // soft white light
+let light = new THREE.AmbientLight( 0x404040 );
 
 let group = new THREE.Group();
 group.add(cube);
