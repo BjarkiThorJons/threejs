@@ -11,12 +11,12 @@ var texture = textureLoader.load( 'myndir/stone.png' );
 
 
 var materials = [
-    new THREE.MeshBasicMaterial( { map: texture } ),
-    new THREE.MeshBasicMaterial( { map: texture } ),
-    new THREE.MeshBasicMaterial( { map: texture } ),
-    new THREE.MeshBasicMaterial( { map: texture } ),
-    new THREE.MeshBasicMaterial( { map: texture } ),
-    new THREE.MeshBasicMaterial( { map: texture } )
+    new THREE.MeshPhongMaterial( { map: texture } ),
+    new THREE.MeshPhongMaterial( { map: texture } ),
+    new THREE.MeshPhongMaterial( { map: texture } ),
+    new THREE.MeshPhongMaterial( { map: texture } ),
+    new THREE.MeshPhongMaterial( { map: texture } ),
+    new THREE.MeshPhongMaterial( { map: texture } )
 ];
 var faceMaterial = new THREE.MeshFaceMaterial( materials );
 
