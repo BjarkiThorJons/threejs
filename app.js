@@ -27,7 +27,6 @@ let edges = new THREE.EdgesGeometry( geometry );
 let line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
 
 let light = new THREE.AmbientLight( 0x404040 );
-let light = new THREE.AmbientLight( 0x404040 ); 
 let pointlight = new THREE.PointLight(0xffffff);
 pointlight.position.set(2,4,5);
 pointlight.castShadow = true;
